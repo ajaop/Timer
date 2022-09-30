@@ -1,0 +1,27 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Timer.textView" parent="Widget.MaterialComponents.TextView">
+        
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textSize">55sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display2</item>
+    </style>
+
+    <style name="Timer.button" parent="Widget.AppCompat.Button">
+        <item name="android:textAppearance">@style/Widget.MaterialComponents.Button</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+   
+</resources>
+
+
